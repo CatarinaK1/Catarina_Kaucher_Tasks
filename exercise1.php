@@ -17,5 +17,33 @@
     ?>
     <h1> 3.3 get the current date  </h1>
       <?php  echo date ('d.m.y');?>
-      
+
+      <h1> 3.4 "PHP is interesting”. </h1>
+      <?php 
+        $title1 = "PHP is interesting";
+        echo "<h1>" .$title1. "</h1>";
+        
+        ?>
+
+  <h1> 3.5 Tables & Variables </h1>
+  <?php
+    $g1 = 5;
+    $g2 = 4;
+    $g3 = 3;
+    echo "
+    <table>
+    <tr>
+    <th> S.N </th><th> Name </th><th> Grade </th>
+    </tr>
+    <td> 1 </td><td> Pekka </td><td> $g1 </td>
+    </tr>
+    <td> 1 </td><td> Johanna </td><td> $g2 </td>
+    </tr>
+    <td> 1 </td><td> John </td><td> $g3 </td>
+    </tr>
+    </table> "; ?>
+
+   <h1> 4 Screenshot </h1>
+    <img src="images/image.png" alt="image" width= 50%;>
+
       <?php include 'footer.php';?>
