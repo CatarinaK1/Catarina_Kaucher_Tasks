@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Php</title>
-</head>
-<body>
+<?php include 'header.php';?>
     <h1> My simple PHP script </h1>
     <?php
         //Opening tag
@@ -25,5 +17,5 @@
     ?>
     <h1> 3.3 get the current date  </h1>
       <?php  echo date ('d.m.y');?>
-</body>
-</html>
+      
+      <?php include 'footer.php';?>
