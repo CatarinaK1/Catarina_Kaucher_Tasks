@@ -19,10 +19,10 @@
     <div class = "navRest">
      <div class = "navItem3"><a href="exercise1.php">Ex1</a></div>
      <div class = "navItem4"><a href="https://github.com/CatarinaK1/Catarina_Kaucher_Tasks.git">GitHub</div></a>
-     <div class = "navItem5"><a href="cats.html">Cats</div></a>
-     <div class = "navItem6"><a href="contact.html">Contact</div></a>
+     <div class = "navItem5"><a href="variable.php">Ex3</div></a>
+     <div class = "navItem6"><a href="ex2.php">ex2</div></a>
     </div>
    </nav>
    <section>
-    <img src = "images/pexels-photo-5490818.jpeg"  div class = "coverImage">
+    <img src = "images/background2.jpeg"  div class = "coverImage">
     </div>
