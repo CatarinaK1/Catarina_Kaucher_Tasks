@@ -64,5 +64,13 @@
        echo" $d";
         ?>
     <h3> 6 Write a PHP script to detect the browser being used to view your pages.</h3>
-
-<?php include 'footer_Catffee.php';?>
+    <?php
+    $host = $_SERVER['HTTP_USER_AGENT'];
+       echo" $host";
+        ?>
+<h3> 7 Write a PHP script in the footer section of your universal footer just below 
+    the Copyright information to display 
+    the last modification time of a file..</h3>
+    
+<?php include 'footer_Catffee.php';
+ ?>
