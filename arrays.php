@@ -87,6 +87,14 @@ print_r(array_change_key_case($courses4,CASE_UPPER))
 
 
 <h3> List all your favorite colors and their hexadecimal equivalents. (associative arrays)</h3>
+<?php 
+
+$color=array("red" => "#c60600", "blue" => "#2243b6", "green" => "#95a844", "yellow" => "#daa520", "purple" => "#c10dc8");
+foreach ($color as $c => $c_value) {
+    echo  "Color is " .$c. " hexadecimal equivalents is " .$c_value. "<br/>";
+}
+
+?>
 
 
 <h3> PHP script to calculate and display average temperature, five lowest and highest temperatures.</h3>
@@ -95,7 +103,8 @@ print_r(array_change_key_case($courses4,CASE_UPPER))
 echo "<hr><h2> Calculation average temperature: </h2>";
 $month_temp = "78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,
 68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73";
-// what is explode and what does the below code do? : 
+// what is explode and what does the below code do? :
+//function separates strings and removes an item example the comma 
 $temp_array = explode(',', $month_temp);
 $tot_temp = 0;
 // What is count?
@@ -109,7 +118,7 @@ foreach($temp_array as $temp)
  echo "Average Temperature is : ".$avg_high_temp."
 "; 
 // what does sort do?
-//
+//Sort an array in ascending order
 sort($temp_array);
 echo "<br> List of five lowest temperatures :";
 for ($i=0; $i< 5; $i++)
@@ -118,7 +127,7 @@ echo $temp_array[$i].", ";
 }
 echo "<br>List of five highest temperatures :";
 // explain the following loop
-//
+//prints the items inside the array limiting the outcome by 5
 for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
 {
 echo $temp_array[$i].", ";
