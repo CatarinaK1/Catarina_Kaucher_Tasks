@@ -11,7 +11,7 @@ include '../header_Catffee.php'; ?>
         <option value ="BBCAP21"> BBCAP21 </option>
         <option value = "Others"> Others </option>
     </select>
-    <input type = "submit" values= "Submit" name="submit">
+    <input type = "submit" value= "Submit" name="submit">
    </form>
    
    
@@ -25,15 +25,15 @@ include '../header_Catffee.php'; ?>
 
 
     include 'db.php';
-    $sql = " insert_into studentInfo (fname, lname, city, group_id)
+    $sql = " insert into studentInfo (fname, lname, city, group_id)
     values ('$fname','$lname','$city','$group_id')";
     
-    if ($con -> query($sql) == TRUE){
+    if ($conn -> query($sql) === TRUE){
         echo "Your information is added successfully";
 
     }
     else {
-        echo "Error: " .$conn->error;
+        echo "Error: " . $conn -> connect_error;
     }
 
    }

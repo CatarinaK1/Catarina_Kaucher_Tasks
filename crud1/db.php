@@ -1,10 +1,10 @@
 <?php 
-$servername= "webprog23_db_1";
+$server= "db";
 $username="Capy1"; 
-$password="Capybaramarkus28";
-$dbname= "studentInfo";
+$password="123";
+$dbname= "Capy1";
 
-$conn = new mysqli ($servername, $username, $password, $dbname);
+$conn = new mysqli ($server, $username, $password, $dbname);
 
 if ($conn->connect_error){
 
