@@ -1,6 +1,6 @@
 <?php 
  $title = "A simple CRUP app";
-include '../header_Catffee.php'; ?>
+include '../layout/header_Catffee.php'; ?>
 
    <form method = "post" action=""> 
     <input type = "text" name="fname" placeholder="First name" required>
@@ -33,11 +33,11 @@ include '../header_Catffee.php'; ?>
 
     }
     else {
-        echo "Error: " . $conn -> connect_error;
+        echo "Error: " . $conn -> error;
     }
 
    }
 
     ?>
 
-<?php include '../footer_Catffee.php';?>
+<?php include '../layout/footer_Catffee.php';?>

@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include '../layout/header.php';?>
     <h1> My simple PHP script </h1>
     <?php
         //Opening tag
@@ -46,4 +46,4 @@
    <h1> 4 Screenshot </h1>
     <img src="images/image.png" alt="image" width= 50%;>
 
-      <?php include 'footer.php';?>
+      <?php include '../layout/footer.php';?>
