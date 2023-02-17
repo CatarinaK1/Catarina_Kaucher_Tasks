@@ -18,8 +18,9 @@ if ($result -> num_rows > 0) {
 
 while ($row = $result -> fetch_assoc()){
         echo "
-    <table>
      <tr>
+    <td> <a href='update.php?id=$row[id]'> $row[id]</a> </td>
+
      <td>$row[id] </td>
      <td>$row[fname] </td>
      <td>$row[lname] </td>

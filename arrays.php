@@ -1,4 +1,4 @@
-<?php include 'header_Catffee.php';?>
+<?php include '../layout/header_Catffee.php';?>
 <h3> 1.  Write a php script to display courses as list. Use < li ></h3>
 
 <?php $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project");
@@ -183,5 +183,5 @@ if (isset($result)){
 ?>
 
 
-<?php include 'footer_Catffee.php';
+<?php include '../footer_Catffee.php';
  ?>
