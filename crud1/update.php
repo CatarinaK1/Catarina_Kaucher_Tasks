@@ -33,12 +33,33 @@ $row = mysqli_fetch_array($result);
     $group_id = $_POST['group_id'];
     $query = mysqli_query($conn, "UPDATE studentInfo set fname='$fname', lname='$lname' where id='$a' ");
 
+    
+
     if ($query){
         echo "<h2>Your information was updated successfully </h2>";
     } else {
         echo "Record not modified";
     }
    }
+   else if (isset($_POST['delete']))
+{
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $city = $_POST['city'];
+    $group_id = $_POST['group_id'];
+    $query = mysqli_query($conn, 
+    "DELETE from studentinfo
+    where id = '$a'");
+
+    if ($query)
+    {
+        echo "<h2> Your information deleted successfully. </h2>"; //if the query could be done, it prints out success
+    }
+    else 
+    { 
+        echo "Record not modified"; //if the query couldn't be done, it fails
+}
+}
 
    ?>
 

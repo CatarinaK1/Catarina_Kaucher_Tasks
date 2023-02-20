@@ -1,4 +1,6 @@
-<?php include '../layout/header.php';?>
+<?php include './layout/header_Catffee.php'; ?>
+<script scr= "../js/site.js"> </script>
+
     <h1> My simple PHP script </h1>
     <?php
         //Opening tag
@@ -18,12 +20,48 @@
     <h1> 3.3 get the current date  </h1>
       <?php  echo date ('d.m.y');?>
 
+    <script>
+    //window.alert
+    //window.alert("This will trigger an alert box");
+    //window.alert(5+8);
+    </script>
+
+      <script> 
+
+      document.write("Hello world this is Javascript");
+
+      //if its on the same line use ;
+      a = 10; b = 10;
+      //if it's a new line then there's no need
+
+      </script>
+      <noscript> 
+      Please enable Javascript to view this content.
+
+      </noscript>
+      <button onclick='add()'>Click here</button>
+      <input type="button" onclick='hello()' value="Click me">
+
+      
       <h1> 3.4 "PHP is interesting”. </h1>
       <?php 
         $title1 = "PHP is interesting";
         echo "<h1>" .$title1. "</h1>";
         
         ?>
+
+      <hr>
+      <p  id="place1" style= "color: red; background-color: pink;"> </p>
+      <span id= "place2" style = "color : blue; background-color: violet;"></span>
+
+      <script>
+      
+      document.getElementById("place1").innerHTML = "This will go to place1";
+      document.getElementById("place2").innerHTML = "This will go to span";
+
+      </script>
+
+
 
   <h1> 3.5 Tables & Variables </h1>
   <?php
@@ -46,4 +84,9 @@
    <h1> 4 Screenshot </h1>
     <img src="images/image.png" alt="image" width= 50%;>
 
-      <?php include '../layout/footer.php';?>
+    <h2> Changing background-color </h2>
+    <form>
+    <input type ="color" name = "background" onchange = "changeColor('background', this.value)">
+   </form>
+
+      <?php include './layout/footer_Catffee.php';?>
