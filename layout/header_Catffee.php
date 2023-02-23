@@ -13,7 +13,7 @@
 </head>
 <body>
    <nav>
-   <script scr="/js/site.js"></script>
+   <script src="./js/site.js"></script>
     <div class = "logoText">
      <div class = "navItem1"><img src="./images/logo.png" alt="Logo"></div>
      <div class = "navItem2">Catffee</div>
@@ -28,4 +28,3 @@
    </nav>
    <section>
     <img src = "./images/background2.jpeg"  div class = "coverImage">
-    </div>
