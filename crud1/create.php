@@ -2,8 +2,10 @@
  $title = "A simple CRUP app";
 include '../layout/header_Catffee.php'; ?>
 
-   <form method = "post" action=""> 
-    <input type = "text" name="fname" placeholder="First name" required>
+
+
+   <form method = "post" action="" onsubmit = "return crud()" name = "form1"> 
+    <input type = "text" name="fname" placeholder="First name" required onblur="fname()">
     <input type = "text" name="lname" placeholder="Last name" required>
     <input type = "text" name= "city" placeholder="City name" required>
     <select name = "group_id">
@@ -40,4 +42,10 @@ include '../layout/header_Catffee.php'; ?>
 
     ?>
 
-<?php include '../layout/footer_Catffee.php';?>
+<script>
+<?php include include ('../js/site.js')
+?>
+</script>
+
+<?php include '../layout/footer_Catffee.php';
+?>

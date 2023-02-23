@@ -15,3 +15,31 @@ function changeColor(where, newColor) {
         document.body.style.backgroundColor = newColor;
     }
 }
+
+function changeColor1() {
+
+    let color = document.getElementById('fcolor').value;
+    document.body.style.backgroundColor = color;
+}
+
+
+//crud
+
+function crud(){
+    let fname = (document.form1.fname.value).trim();
+
+    if (fname.length < 3) {
+        alert("First name must have at least 3 characters ")
+        return false;
+    }
+}
+
+function fname(){
+    let fname = (document.form1.fname.value).trim();
+
+    if (fname.length < 3) {
+        alert("First name must have at least 3 characters ")
+        return false;
+    }
+
+}

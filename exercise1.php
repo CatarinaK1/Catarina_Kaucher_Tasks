@@ -1,5 +1,5 @@
 <?php include './layout/header_Catffee.php'; ?>
-<script scr= "../js/site.js"> </script>
+
 
     <h1> My simple PHP script </h1>
     <?php
