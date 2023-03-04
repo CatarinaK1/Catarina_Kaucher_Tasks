@@ -1,7 +1,7 @@
 <?php 
 //Parent folder
 $title = "Reading from database";
-include '../layout/header_Catffee.php';
+include './layout/header_Catffee.php';
 include 'db.php';
 
 $sql = "select all * from studentInfo";
@@ -37,7 +37,7 @@ $conn -> close();
 ?>
 
 
-<?php include '../layout/footer_Catffee.php';?>
+<?php include './layout/footer_Catffee.php';?>
 
 <?php
 /* connect with database

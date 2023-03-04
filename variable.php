@@ -1,4 +1,4 @@
-<?php include '../layout/header_Catffee.php';?>
+<?php include './layout/header_Catffee.php';?>
 
 <h3> In-class Task Variable & Operators </h3>
 
@@ -72,5 +72,5 @@
     the Copyright information to display 
     the last modification time of a file..</h3>
     
-<?php include '../layout/footer_Catffee.php';
+<?php include './layout/footer_Catffee.php';
  ?>

@@ -21,9 +21,14 @@
     <div class = "navRest">
      <div class = "navItem3"><a href="exercise1.php">Ex1</a></div>
      <div class = "navItem4"><a href="https://github.com/CatarinaK1/Catarina_Kaucher_Tasks.git">GitHub</div></a>
+     <div class = "navItem6"><a href="./ex2.php">ex2</div></a>
      <div class = "navItem5"><a href="variable.php">Ex3</div></a>
-     <div class = "navItem6"><a href="../ex2.php">ex2</div></a>
-     <div class = "navItem6"><a href="">ex2</div></a>
+     <div class = "navItem6"><a href="./controlflow.php">ex4</div></a>
+     <div class = "navItem6"><a href="./arrays.php">ex5</div></a>
+     <div class = "navItem6"><a href="./create.php">ex6</div></a>
+     <div class = "navItem6"><a href="./read.php">ex7</div></a>
+     <!--<div class = "navItem6"><a href="./crud1/update.php">ex8</div></a>-->
+     <div class = "navItem6"><a href="./jsinclass.php">ex8</div></a>
     </div>
    </nav>
    <section>

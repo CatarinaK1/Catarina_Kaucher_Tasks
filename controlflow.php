@@ -1,4 +1,4 @@
-<?php include '../layout/header_Catffee.php';
+<?php include './layout/header_Catffee.php';
 ?>
 <h3> 1 Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:
 It's August, so it's still holiday.
@@ -132,4 +132,4 @@ if ( $intAge >= 18) {
        
         ?>
 
-<?php include '../layout/footer_Catffee.php';?>
+<?php include './layout/footer_Catffee.php';?>

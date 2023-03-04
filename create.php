@@ -1,6 +1,6 @@
 <?php 
  $title = "A simple CRUP app";
-include '../layout/header_Catffee.php'; ?>
+include './layout/header_Catffee.php'; ?>
 
 
 
@@ -43,9 +43,9 @@ include '../layout/header_Catffee.php'; ?>
     ?>
 
 <script>
-<?php include include ('../js/site.js')
+<?php include include ('./js/site.js')
 ?>
 </script>
 
-<?php include '../layout/footer_Catffee.php';
+<?php include './layout/footer_Catffee.php';
 ?>
